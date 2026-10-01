@@ -1,0 +1,24 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  color: #202c23;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --leaf: #17663a;
+  --white: #fff;
+  --ink: #202c23;
+  --muted: #6c766e;
+  --line: #dce4dc;
+  --lime: #bad276;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; margin: 0; }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid #7b9d53; outline-offset: 3px; }
+#root { min-height: 100vh; }
